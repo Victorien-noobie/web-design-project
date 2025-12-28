@@ -5,7 +5,11 @@ body {
     background: linear-gradient(to bottom, #63caf6, #fefbd8); /* sky to sand */
     color: #131313;
 }
-
+.bg-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
 /* ===== NAVBAR ===== */
 .navbar {
     background: linear-gradient(90deg, #ff8c42, #ffcb77);
