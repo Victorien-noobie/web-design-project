@@ -33,7 +33,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="Beaches.html">Beaches</a>
+                    <a class="nav-link" href="#beaches">Beaches</a>
                 </li>
 
                 <li class="nav-item">
@@ -90,52 +90,118 @@
         </p>
     </section>
 
-    <section>
-        <h2>Featured Beaches</h2>
-        <dl class="container mt-4">
-            <!--Le morne beach \-->
-            <dt class="h5 text-primary mt-3"></dt><strong>Le Morne Beach</strong></dt>
-            <dd class="ms-3 mb-3">
-             <div class="overflow-hidden rounded-3 mb-3" style="max-width: 800px;">
-                <img src="pictures-videos/lemornebeach.jpg" alt="Le Morne Beach" class="img-fluid">
-              Calm turquoise waters with a stunning mountain backdrop.
-            </div>
-            </dd>
-            <!--Flic en Flac beach \-->
-            <dt class="h5 text-primary mt-3"><strong>Flic en Flac Beach</strong></dt>
-            <dd class="ms-3 mb-3">
-             <div class="overflow-hidden rounded-3 mb-3" style="max-width: 800px;">
-                <img src="pictures-videos/FlicenFlac.jpeg" alt="Flic en Flac Beach" class="img-fluid">
-              Popular beach with vibrant coral reefs and water activities.
-            </div>
-            </dd>
-            <!--Grand Baie beach \-->
-            <dt class="h5 text-primary mt-3"><strong>Grand Baie Beach</strong></dt>
-            <dd class="ms-3 mb-3">
-                <div class="overflow-hidden rounded-3 mb-3" style="max-width: 800px;">
-                <img src="https://github.com/Victorien-noobie/web-design-project/blob/main/pictures-videos/GrandBaie.jpg" alt="Grand Baie Beach" class="img-fluid">
-                Lively beach with nightlife and water sports.
+    <section id="beaches" class="mt-5 mb-5">
+        <h2 class="text-center text-primary mb-4">Featured Beaches</h2>
+        
+            <div class="row"></div>
+            <!--left beach carousel-->
+            <div id="beachCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner rounded-3 shadow">
+                <div class="carousel-item active">
+
+                  <img src="pictures-videos/lemornebeach.jpg" class="d-block w-100" alt="Le Morne Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Le Morne Beach</h5>
+                    <p>Calm turquoise waters with a stunning mountain backdrop.</p>
                 </div>
-            </dd>
-            <!--Pereybere beach \-->
-
-            <dt class="h5 text-primary mt-3"><strong>Pereybere Beach</strong></dt>
-            <dd class="ms-3 mb-3">
-                <div class="overflow-hidden rounded-3 mb-3" style="max-width: 800px;">
-                <img src="pictures-videos/PereybereBeach.jfif" alt="Pereybere Beach" class="img-fluid">
-                Relaxed beach perfect for swimming and snorkeling.
                 </div>
-            </dd>
+                <div class="carousel-item ">
+                  <img src="pictures-videos/FlicenFlac.jpeg" class="d-block w-100" alt="Flic en Flac Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Flic en Flac Beach</h5>
+                    <p>Popular beach with vibrant coral reefs and water activities.</p>
+                </div>
+                </div>
+                <div class="carousel-item ">
+                  <img src="pictures-videos/GrandBaie.jpg" class="d-block w-100" alt="Grand Baie Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Grand Baie Beach</h5>
+                    <p>Lively beach with nightlife and water sports.</p>
+                </div>
+                </div>
+                <div class="carousel-item ">
+                  <img src="pictures-videos/PereybereBeach.jfif" class="d-block w-100" alt="Pereybere Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Pereybere Beach</h5>
+                    <p>Relaxed beach perfect for swimming and snorkeling.</p>
+                </div>
+              </div>
 
+              <div class="carousel-item ">
+                  <img src="pictures-videos/montchoisybeach.jpg" class="d-block w-100" alt="Mont Choisy Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Mont Choisy Beach</h5>
+                    <p>Long, quiet beach ideal for walks.</p>
+                </div>
+              </div>
 
-            <dt><strong>Mont Choisy Beach</strong></dt>
-            <dd class="ms-3 mb-3">Long, quiet beach ideal for walks.</dd>
-            <dt><strong>Belle Mare Beach</strong></dt>
-            <dd class="ms-3 mb-3">Peaceful east-coast beach with shallow waters.</dd>
-        </dl>
+              <div class="carousel-item ">
+                  <img src="pictures-videos/Tamarinbeach.jpg" class="d-block w-100" alt="Tamarin Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Tamarin Beach</h5>
+                    <p>Popular beach with vibrant coral reefs and water activities and white sand.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                  <img src="pictures-videos/bellemarebeach.jpg" class="d-block w-100" alt="Belle Mare Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Belle Mare Beach</h5>
+                    <p>Peaceful east-coast beach with shallow waters.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                  <img src="pictures-videos/TrouauxBichesbeach.jpg" class="d-block w-100" alt="Trou aux Biches Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Trou aux Biches Beach</h5>
+                    <p>Popular beach with vibrant coral reefs and water activities and white sand.</p>
+                </div>
+              </div>
+
+                </div>  
+                <div class="carousel-item ">
+                  <img src="pictures-videos/Ileauxcerfsbeach.jfif" class="d-block w-100" alt="Ile aux Cerfs Beach">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Ile aux Cerfs Beach</h5>
+                    <p>Popular beach with vibrant coral reefs and water activities and white sand.</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#beachCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#beachCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+             
+            <!--google maps API-->
+                <div class="col-lg-6 mb-4">
+                     <h5 class="text-primary mb-3">Where is Mauritius?</h5>
+            <p>
+                Mauritius is located in the Indian Ocean, east of Madagascar.
+                The map shows the location of the island and its surrounding beaches.
+            </p>
+
+            <div class="ratio ratio-16x9">
+                <iframe
+                    src="https://www.google.com/maps?q=Mauritius&output=embed"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+
+                </div>
+
+            </div>
+       
     </section>
 
 </main>
+    
 
 <footer>
     <p>&copy; 2025 Paradise Beaches Mauritius</p>

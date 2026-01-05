@@ -103,7 +103,11 @@ section {
     font-size: 1.1em;
     line-height: 1.8;
 }
-
+/* ===== CAROUSEL ===== */
+.carousel-item img {
+    height:400px;
+    object-fit: cover;
+}
 /* ===== BUTTON ===== */
 .btn {
     display: inline-block;
