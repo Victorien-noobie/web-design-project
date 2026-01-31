@@ -122,7 +122,7 @@ section {
 }
 
 .btn:hover {
-    background-color: #ff8c42;
+    background-color: #cf4f00;
     transform: scale(1.1);
 }
 
@@ -133,4 +133,64 @@ footer {
     text-align: center;
     padding: 20px;
     font-weight: bold;
+}
+
+/*Responsive*/
+@media (max-width: 768px){
+    .brand{
+        flex-direction:column;
+        align-items: flex-start;
+        gap:4px;
+    }
+}
+
+/*Carousel hover for desktop only*/
+.carousel-wrapper,
+.carousel-wrapper{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-wrapper:hover,
+.map-wrapper:hover{
+    transform: scale(1.04);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    
+}
+
+/*disable hover zoom on mobile*/
+@media (max-width: 768px) {
+    .carousel-wrapper:hover,
+    .map-wrapper:hover{
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+/*smooth behavior on mobile*/
+@media (max-width:768px){
+    .carousel-wrapper:hover{
+        transform: none;
+        box-shadow: none;
+        z-index: auto;
+    }
+}
+/*smoother scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+/* Improve touch experience*/
+.carousel{
+    touch-action: pan-y;
+}
+
+/*bigger touch targets on mobile*/
+.carousel-control-prev,
+.carousel-control-next{
+    width: 15%;
+}
+/*Prevent image overflow*/
+.carousel img{
+    max-height:380px;
+    object-fit: cover;
 }
